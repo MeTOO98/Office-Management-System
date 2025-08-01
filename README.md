@@ -27,3 +27,24 @@ The goal is to model real-life office interactions using OOP principles like inh
  - Lateness calculation with automatic salary deduction/reward
 
  - Track total number of employees with class-level data
+
+## Project Structure
+
+OOP_Project/
+│
+├── OOP Project.py        # Main Python script with all classes and logic
+├── README.md             # Project documentation (this file)
+
+
+## How It Works
+  ##### Classes & Methods
+
+  - Person Class
+   ** __init__(name, money=0)**
+
+   ** sleep(hours)**
+
+   ** eat(meals)**
+
+   ** buy(items)**
+
