@@ -45,11 +45,18 @@ OOP_Project/
   ##### Classes & Methods
 
   - Person Class
+   ```
    **__init__(name, money=0)**
+   ```
 
+   ```
    **sleep(hours)**
-
+   ```
+   ```
    **eat(meals)**
+  ```
 
+  ```
    **buy(items)**
+  ```
 
