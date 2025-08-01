@@ -31,10 +31,11 @@ The goal is to model real-life office interactions using OOP principles like inh
 ## Project Structure
 
 OOP_Project/
-   ؛حح
-   │
-   ├── OOP Project.py        # Main Python script with all classes and logic  
-   ├── README.md             # Project documentation (this file)
+│
+├── OOP Project.py        # Main Python script with all classes and logic
+├── README.md             # Project documentation (this file)
+└── (Optional) requirements.txt  # No external libraries needed
+
 
 
 ## How It Works
