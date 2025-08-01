@@ -15,3 +15,15 @@ The project uses four main classes:
   - Office – Manages employee operations like hiring, firing, salary management, and attendance checking.
 
 The goal is to model real-life office interactions using OOP principles like inheritance, encapsulation, and polymorphism.
+
+## Features
+
+ - Employee management (hire, fire, reward, deduct)
+
+ - Simulate commuting and fuel usage via Car objects
+
+ - Sleep, eat, and work routines affecting mood and health
+
+ - Lateness calculation with automatic salary deduction/reward
+
+ - Track total number of employees with class-level data
