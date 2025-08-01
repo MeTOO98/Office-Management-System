@@ -14,7 +14,7 @@ The project uses four main classes:
 
   - Office – Manages employee operations like hiring, firing, salary management, and attendance checking.
 
-The goal is to model real-life office interactions using OOP principles like inheritance, encapsulation, and polymorphism.
+The goal is to model real-life office interactions using OOP principles like inheritance, encapsulation.
 
 ## Features
 
