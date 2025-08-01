@@ -107,6 +107,3 @@ office.check_lateness(10, 7)
 
 
 
-
-  ```
-
