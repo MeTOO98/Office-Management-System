@@ -36,7 +36,7 @@ OOP_Project/
 │
 ├── OOP Project.py        # Main Python script with all classes and logic
 ├── README.md             # Project documentation (this file)
-└── (Optional) requirements.txt  # No external libraries needed
+
 ```
 
 
@@ -45,11 +45,11 @@ OOP_Project/
   ##### Classes & Methods
 
   - Person Class
-   ** __init__(name, money=0)**
+   **__init__(name, money=0)**
 
-   ** sleep(hours)**
+   **sleep(hours)**
 
-   ** eat(meals)**
+   **eat(meals)**
 
-   ** buy(items)**
+   **buy(items)**
 
