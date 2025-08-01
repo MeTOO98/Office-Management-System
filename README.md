@@ -42,21 +42,71 @@ OOP_Project/
 
 
 ## How It Works
-  ##### Classes & Methods
 
-- Person Class
-   ```
-    __init__(name, money=0)
-   ```
+### Classes & Methods
 
-   ```
-    sleep(hours)
-   ```
-   ```
-    eat(meals)
-  ```
+#### Person Class
+- `__init__(name, money=0)`
+- `sleep(hours)`
+- `eat(meals)`
+- `buy(items)`
 
-  ```
-    buy(items)
+#### Employee Class (inherits Person)
+- `__init__(id, name, car=None, email="", salary=1000, distancetowork=0)`
+- `work(hours)`
+- `drive(distance)`
+- `refuel(gasAmount)`
+
+#### Car Class
+- `__init__(velocity, name="", fuelrate=0)`
+- `run(distance, velocity)`
+- `stop(distance)`
+
+#### Office Class
+- `__init__(name)`
+- Methods: 
+  - `hire_employee(emp)`
+  - `fire_employee(emp_id)`
+  - `deduct(emp_id, deduction)`
+  - `reward(emp_id, reward)`
+  - `check_lateness(emp_id, move_hour)`
+  - `get_employee(emp_id)`
+  - `calculate_lateness(...)` (static)
+  - `change_emps_num(num)` (class)
+
+## Example Scenario
+
+1. Create cars and employees.
+2. Assign cars to employees.
+3. Create an office and hire employees.
+4. Check for lateness and adjust salary accordingly.
+
+```python
+c1 = Car(20, "Fiat", 70)
+e1 = Employee(10, "Ahmed", c1, "ahmed@yahoo.com", 4000, distancetowork=50)
+
+office = Office("HR")
+office.hire_employee(e1)
+office.check_lateness(10, 7)
+```
+
+## Requirements
+
+- Python 3.x
+
+- No external libraries needed
+
+
+## Getting Started
+
+1-Clone or download the repository.
+
+2-Run OOP Project.py using any Python 3.x environment.
+
+3-Customize employee/car/office instances as needed.
+
+
+
+
   ```
 
