@@ -46,17 +46,17 @@ OOP_Project/
 
   - Person Class
    ```
-   **__init__(name, money=0)**
+   __init__(name, money=0)
    ```
 
    ```
-   **sleep(hours)**
+   sleep(hours)
    ```
    ```
-   **eat(meals)**
+   eat(meals)
   ```
 
   ```
-   **buy(items)**
+   buy(items)
   ```
 
