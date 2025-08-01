@@ -44,19 +44,19 @@ OOP_Project/
 ## How It Works
   ##### Classes & Methods
 
-  - Person Class
+- Person Class
    ```
-   __init__(name, money=0)
+ __init__(name, money=0)
    ```
 
    ```
-   sleep(hours)
+sleep(hours)
    ```
    ```
-   eat(meals)
+eat(meals)
   ```
 
   ```
-   buy(items)
+buy(items)
   ```
 
