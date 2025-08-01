@@ -99,11 +99,11 @@ office.check_lateness(10, 7)
 
 ## Getting Started
 
-1-Clone or download the repository.
+1. Clone or download the repository.
 
-2-Run OOP Project.py using any Python 3.x environment.
+2. Run OOP Project.py using any Python 3.x environment.
 
-3-Customize employee/car/office instances as needed.
+3. Customize employee/car/office instances as needed.
 
 
 
